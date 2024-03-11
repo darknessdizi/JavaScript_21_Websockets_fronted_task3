@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 30px 20px;
+  background-color: aquamarine;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: default;
+}
+
+.conteiner {
+  width: 50%;
+  height: 90vh;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: azure;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 30px 15px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: stretch;
+}
+
+.widget-content {
+  overflow-y: scroll;
+  width: 100%;
+}
+
+.widget-message {
+  display: flex;
+  align-items: stretch;
+  margin-bottom: 20px;
+  justify-content: flex-start;
+}
+
+.message-img {
+  min-width: 10%;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: center;
+}
+
+.message-content {
+  flex-grow: 1;
+  padding-right: 30px;
+}
+
+.message-time {
+  margin-bottom: 5px;
+}
+
+.freekick {
+  background-image: url('../img/clamationmark.png');
+}
+
+.goal {
+  background-image: url('../img/ball.png');
+}
