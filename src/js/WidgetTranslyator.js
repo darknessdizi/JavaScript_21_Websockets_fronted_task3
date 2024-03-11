@@ -13,15 +13,15 @@ export default class WidgetTranslyator {
     this.eventSource.addEventListener('open', (e) => {
       console.log('sse open', e);
     });
-    
+
     this.eventSource.addEventListener('error', (e) => {
       console.log('sse error', e);
     });
-    
+
     this.eventSource.addEventListener('message', (e) => {
       const body = JSON.parse(e.data);
       this.addField(body);
-      console.log('body', body);      
+      console.log('body', body);
       console.log('sse message');
     });
   }
