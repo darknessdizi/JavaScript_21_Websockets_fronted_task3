@@ -4,7 +4,9 @@
 
 ## Backend
 
-Ссылка на git-hub репозиторий (fronted): https://github.com/darknessdizi/JavaScript_21_Websockets_backend_task3.git
+Ссылка на git-hub репозиторий (backend): https://github.com/darknessdizi/JavaScript_21_Websockets_backend_task3.git
+
+Ссылка сервера на render: https://dashboard.render.com/web/srv-cnoa1ofsc6pc738ho0q0/deploys/dep-cnoa1onsc6pc738ho0sg
 
 ---
 

@@ -1,6 +1,5 @@
 export default class WidgetTranslyator {
   constructor(url, parent) {
-    this.urlServer = url;
     this.conteiner = parent;
     this.field = null;
     this.eventSource = new EventSource(url);
